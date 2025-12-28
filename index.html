@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Codexia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="top">
+    <div class="brand">
+      <img src="logo.png" class="logo">
+      <h1>Codexia</h1>
+    </div>
+    <p>AI-powered, context-aware code refactoring assistant</p>
+  </header>
+
+  <!-- MAIN UI -->
+  <div class="main">
+
+    <!-- LEFT: CODE -->
+    <div class="code-card">
+      <h2>Code Under Review</h2>
+
+      <div class="code-box">
+<pre>
+1  #include &lt;stdio.h&gt;
+2  int main(){
+3      char name;
+4      int roll;
+5      float cgpa;
+
+6      printf("Enter name");
+7      scanf("%s",&name);
+8      printf("Enter roll");
+9      scanf("%d",&roll);
+
+10     printf("Enter cgpa");
+11     scanf("%f",&cgpa);
+
+12     return 0;
+13 }
+</pre>
+      </div>
+    </div>
+
+    <!-- RIGHT: ISSUES -->
+    <div class="side">
+
+      <div class="card error">
+        <h3>Oopss</h3>
+        <p>🚨 <b>Issue:</b> Long method</p>
+        <p>🎯 <b>Impact:</b><br>Hard to maintain and debug</p>
+      </div>
+
+      <div class="card success">
+        <h3>We got this</h3>
+        <p>💡 <b>Suggestion:</b> Extract method</p>
+        <p class="small">
+          Improves readability, reuse, and testability without changing the logic
+        </p>
+
+        <div class="actions">
+          <button class="apply">Apply Refactor</button>
+          <button class="ignore">Ignore</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

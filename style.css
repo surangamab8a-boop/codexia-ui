@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Poppins, Arial, sans-serif;
+  background: #dedede;
+}
+
+/* HEADER */
+.top {
+  background: white;
+  padding: 25px;
+  text-align: center;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 36px;
+}
+
+.top p {
+  color: #555;
+  margin-top: 8px;
+}
+
+/* MAIN LAYOUT */
+.main {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* CODE SECTION */
+.code-card {
+  flex: 2;
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.code-box {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 15px;
+  color: #d1d5db;
+  font-family: "Courier New", monospace;
+}
+
+pre {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* SIDE PANEL */
+.side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.error {
+  background: #fdecec;
+}
+
+.success {
+  background: #eaf7ea;
+}
+
+.small {
+  font-size: 14px;
+  color: #444;
+}
+
+/* BUTTONS */
+.actions {
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.apply {
+  background: #3b82f6;
+  color: white;
+}
+
+.ignore {
+  background: white;
+  border: 1px solid #aaa;
+  margin-left: 10px;
+}
